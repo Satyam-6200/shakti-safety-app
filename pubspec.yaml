@@ -1,0 +1,67 @@
+name: shakti
+description: "Women Safety App - Your Safety, One Tap Away"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  # State Management
+  provider: ^6.1.2
+  
+  # Firebase
+  firebase_core: ^3.8.1
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.5.2
+  firebase_storage: ^12.3.8
+  firebase_messaging: ^15.0.1
+  
+  # Location & Maps
+  geolocator: ^13.0.2
+  geocoding: ^3.0.0
+  google_maps_flutter: ^2.9.0
+  location: ^7.0.0
+  
+  # Camera & Image
+  camera: ^0.11.0+2
+  image_picker: ^1.1.2
+  
+  # Permissions
+  permission_handler: ^11.3.1
+  
+  # Communication
+  url_launcher: ^6.3.1
+  
+  # Hardware & Sensors
+  sensors_plus: ^6.0.1
+  wakelock_plus: ^1.2.8
+  
+  # Health (Smartwatch)
+  health: ^11.1.0
+  
+  # Notifications
+  flutter_local_notifications: ^18.0.1
+  intl: ^0.19.0
+  
+  # Utilities
+  shared_preferences: ^2.3.3
+  connectivity_plus: ^6.1.0
+  battery_plus: ^6.0.3
+  
+  # HTTP
+  http: ^1.2.2
+  dio: ^5.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
